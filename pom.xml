@@ -27,7 +27,7 @@
 
   <build>
     <plugins>
-      <!-- Plugin para gerar jar executável -->
+      <!-- Compiler Java 17 -->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
@@ -38,6 +38,7 @@
         </configuration>
       </plugin>
 
+      <!-- Criação do jar executável com dependências -->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-assembly-plugin</artifactId>
@@ -45,7 +46,7 @@
         <configuration>
           <archive>
             <manifest>
-              <mainClass>com.seuprojeto.Main</mainClass>
+              <mainClass>com.projeto.Main</mainClass> <!-- Ajuste aqui -->
             </manifest>
           </archive>
           <descriptorRefs>
