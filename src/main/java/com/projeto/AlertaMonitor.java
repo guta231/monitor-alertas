@@ -7,7 +7,7 @@ import java.util.List;
 
 public class AlertaMonitor {
 
-    private static final String URL = "jdbc:mysql://127.0.0.1/sfgb";
+    private static final String URL = "jdbc:mysql://localhost:4343/sfgb";
     private static final String USER = "admin_gustavo";
     private static final String PASS = "@SAVEFOREST1";
 
